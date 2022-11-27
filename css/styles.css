@@ -116,6 +116,36 @@ button {
   letter-spacing: 0.03em;
   color: #757575;
 }
+
+.filters button {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 16px;
+  line-height: 1.6;
+  text-align: center;
+  letter-spacing: 0.03em;
+}
+.filters button:hover,
+.filters button:focus {
+  background-color: var(--brand-color);
+  color: #ffffff;
+}
+.projects h3 {
+  font-style: normal;
+  font-weight: 700;
+  font-size: 18px;
+  line-height: 2;
+  letter-spacing: 0.06em;
+}
+.projects p {
+  font-style: normal;
+  font-weight: 400;
+  font-size: 16px;
+  line-height: 1.875;
+  letter-spacing: 0.03em;
+  color: #757575;
+}
+
 .contacts-footer .contact {
   color: rgba(255, 255, 255, 0.6);
   text-decoration: none;
@@ -132,7 +162,7 @@ footer .logo {
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #FFFFFF;
+  color: #ffffff;
 }
 .footer .contact {
   font-style: normal;

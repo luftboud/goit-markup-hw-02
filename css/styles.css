@@ -1,17 +1,23 @@
 :root {
   --brand-color: #2196f3;
   --brand-background-color: #2f303a;
+  --text-color: #212121;
+  --white-color: #ffffff;
+  --gray-color: #757575;
+  --background-color: #f5f4fa;
 }
 
 body {
   font-family: "Roboto", sans-serif;
-  color: #212121;
-  background-color: #ffffff;
+  color: var(--text-color);
+  background-color: var(--white-color);
+}
+li {
+  list-style-type: none;
 }
 .logo {
-  color: #212121;
+  color: var(--text-color);
   font-family: "Raleway", sans-serif;
-  font-style: normal;
   text-decoration: none;
   font-weight: 700;
   font-size: 26px;
@@ -22,18 +28,16 @@ body {
   color: var(--brand-color);
 }
 .iteractive-element {
-  color: #212121;
+  color: var(--text-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
   letter-spacing: 0.02em;
 }
 .contacts-header .contact {
-  color: #757575;
+  color: var(--gray-color);
   text-decoration: none;
-  font-style: normal;
   font-weight: 500;
   font-size: 14px;
   line-height: 1.14;
@@ -44,8 +48,7 @@ body {
   background-color: var(--brand-background-color);
 }
 .order-section h1 {
-  color: #ffffff;
-  font-style: normal;
+  color: var(--white-color);
   font-weight: 900;
   font-size: 44px;
   line-height: 1.36;
@@ -55,19 +58,18 @@ body {
 }
 .order-section button {
   background-color: var(--brand-color);
-  font-style: normal;
   font-weight: 700;
   font-size: 16px;
   line-height: 1.87;
   text-align: center;
   letter-spacing: 0.06em;
-  color: #ffffff;
+  color: var(--white-color);
 }
 button {
   cursor: pointer;
+  font-family: inherit;
 }
 .benefits-section h3 {
-  font-style: normal;
   font-weight: 700;
   font-size: 14px;
   line-height: 1.14;
@@ -75,14 +77,12 @@ button {
   text-transform: uppercase;
 }
 .benefits-section p {
-  color: #757575;
-  font-style: normal;
+  color: var(--gray-color);
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
 }
 .we-do-section h2 {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -90,10 +90,9 @@ button {
   letter-spacing: 0.03em;
 }
 .our-team-section {
-  background-color: #f5f4fa;
+  background-color: var(--background-color);
 }
 .our-team-section h2 {
-  font-style: normal;
   font-weight: 700;
   font-size: 36px;
   line-height: 1.17;
@@ -101,7 +100,6 @@ button {
   letter-spacing: 0.03em;
 }
 .our-team-section h3 {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.19;
@@ -109,16 +107,14 @@ button {
   letter-spacing: 0.03em;
 }
 .our-team-section p {
-  font-style: normal;
   font-size: 16px;
   line-height: 1.19;
   text-align: center;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 .filters button {
-  font-style: normal;
   font-weight: 500;
   font-size: 16px;
   line-height: 1.6;
@@ -128,22 +124,19 @@ button {
 .filters button:hover,
 .filters button:focus {
   background-color: var(--brand-color);
-  color: #ffffff;
+  color: var(--white-color);
 }
 .projects h3 {
-  font-style: normal;
   font-weight: 700;
   font-size: 18px;
   line-height: 2;
   letter-spacing: 0.06em;
 }
 .projects p {
-  font-style: normal;
-  font-weight: 400;
   font-size: 16px;
   line-height: 1.875;
   letter-spacing: 0.03em;
-  color: #757575;
+  color: var(--gray-color);
 }
 
 .contacts-footer .contact {
@@ -154,17 +147,16 @@ button {
   background-color: var(--brand-background-color);
 }
 footer .logo {
-  color: #ffffff;
+  color: var(--white-color);
 }
 .footer p {
-  font-style: normal;
   font-weight: 400;
   font-size: 14px;
   line-height: 1.71;
   letter-spacing: 0.03em;
-  color: #ffffff;
+  color: var(--white-color);
 }
-.footer .contact {
+.address {
   font-style: normal;
 }
 .iteractive-element:hover,
